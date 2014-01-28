@@ -1,3 +1,11 @@
+---
+permalink: "jobs.html"
+layout: default
+title: Ruby Jobs
+published: true
+---
+
+
 # Wanted: Talented web developers who are equally excited to work with both Rails, Javascript and desire to learn new technologies.
 
 # We seek people who want to turn see that $70 billion spent on IT turn into applications for taxpayers.

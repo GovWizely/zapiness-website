@@ -226,7 +226,7 @@ hr {
 }
 
 table {
-  border: 1px solid #373737;
+
   margin-bottom: 20px;
   text-align: left;
  }
@@ -240,7 +240,7 @@ th {
 
 td {
   padding: 10px;
-  border: 1px solid #373737;
+
  }
 
 form {
@@ -279,9 +279,13 @@ Full-Width Styles
 }
 
 #header_wrap {
-background: url('http://navinsarmaphotography.com/wp-content/uploads/2012/10/washington_dc_monument_reflecting_pool_sunrise.jpg')  no-repeat ;
+background: url('../images/dc.jpg')  no-repeat ;
 background-attachment:fixed;
-  height: 600px;
+  height: 700px;
+}
+
+#header_wrap2 {
+background: #fff;
 }
 
 #header_wrap .inner {
@@ -294,11 +298,13 @@ background-attachment:fixed;
   font-size: 42px;
   font-weight: 700;
   text-shadow: #111 0px 0px 10px;
+ border-bottom: thin solid #fff;
+ width:400px;
 }
 
 #project_tagline {
   color: #fff;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 300;
   background: none;
   text-shadow: #111 0px 0px 10px;
@@ -382,7 +388,7 @@ color:#000
 
 
 #main_content_wrap {
-  background: #f2f2f2;
+  background: #fff;
   border-top: 1px solid #111;
   border-bottom: 1px solid #111;
 }
@@ -391,13 +397,33 @@ color:#000
   padding-top: 40px;
 }
 
-#footer_wrap2 {
-background: url('http://upload.wikimedia.org/wikipedia/commons/1/16/Commerce_Department_DC.JPG')  no-repeat ;
+#footer_wrap4 {
+background: url('../images/court.jpg')  no-repeat ;
 background-size: 1500px;
 background-attachment:fixed;
 background-position:center bottom;
   height: 300px;
   font-size: 30px;
+  -webkit-box-shadow:0px 3px 3px 0px rgba(0,0,0,0.3);
+box-shadow:0px 3px 3px 0px rgba(0,0,0,0.3)
+}
+#footer_wrap3 {
+background: url('../images/flags.jpg')  no-repeat ;
+background-size: 1500px;
+background-attachment:fixed;
+background-position:center bottom;
+  height: 300px;
+  font-size: 30px;-webkit-box-shadow:0px 3px 3px 0px rgba(0,0,0,0.3);
+box-shadow:0px 3px 3px 0px rgba(0,0,0,0.3)
+}
+#footer_wrap2 {
+background: url('../images/commerce.JPG')  no-repeat ;
+background-size: 1500px;
+background-attachment:fixed;
+background-position:center bottom;
+  height: 300px;
+  font-size: 30px;-webkit-box-shadow:0px 3px 3px 0px rgba(0,0,0,0.3);
+box-shadow:0px 3px 3px 0px rgba(0,0,0,0.3)
 }
 #downloads2 {
   position: absolute;
@@ -411,6 +437,7 @@ background-position:center bottom;
 }
 #footer_wrap {
   background: #1c3d46;
+  font-size:22px;
 }
 
 

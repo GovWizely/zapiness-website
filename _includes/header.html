@@ -8,7 +8,7 @@
 
     <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
 
-    <title>Website</title>
+    <title>GovWizely</title>
   </head>
 
   <body>
@@ -18,11 +18,10 @@
         <header class="inner">
           <!--<a id="forkme_banner" href="https://github.com/ajsingh273/website">View on GitHub</a>-->
 
-          <!--<h1 id="project_title">Website</h1>
-          <h2 id="project_tagline"></h2>-->
+         <center><h1 id="project_title"><a href=""><img  src="images/logo.png" width="350px" ></a></h1></center></br>
+          <center><h2 id="project_tagline">{% include tagline %}</h2></center>
 
             <section id="downloads">
-             <img  src="images/logo.png" width="350px" >
               <!--<a class="tar_download_link" href="https://github.com/ajsingh273/website/tarball/master">Download this project as a tar.gz file</a>-->
             </section>
         </header>
@@ -30,11 +29,11 @@
     
     <nav>
   <ul>
-    <li><a href="#">Home</a></li>
-    <li><a href="#">Services</a></li>
-    <li><a href="#">Open Source</a></li>
-    <li><a href="#abou">About</a></li>
-    <li><a href="#abou">Jobs</a></li>
+    <li><a href="">Home</a></li>
+    <li><a href="#services">Services</a></li>
+    <li><a href="#opensource">Open Source</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="/jobs.html">Jobs</a></li>
     <li><a href="#contact">Contact</a></li>
   </ul>
 </nav>
@@ -42,35 +41,53 @@
     <!-- MAIN CONTENT -->
     <div id="main_content_wrap" class="outer">
       <section id="main_content" class="inner">
-        <h3>
-
-<a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>Welcome to GovWizely</h3>
-
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
-
-
-
 <h3>
-<a name="designer-templates" class="anchor" href="#designer-templates"><span class="octicon octicon-link"></span></a>Services</h3>
+<a name="designer-templates" class="anchor" href="#designer-templates"><span class="octicon octicon-link" id="services"></span></a>Services</h3>
 
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
 
+<table>
+<tr>
+<td><p>Pre-Project Planning</p>
+<p>{% include pre_project_planning %}</p></td>
+<td><p>Product Development</p>
+<p>{% include product_development %}</p></td>
+</tr>
+<tr>
+<td><p>Product Launch</p>
+<p>{% include product_launch %}</p></td>
+<td><p>Post-Launch Support</p>
+<p>{% include post_launch_support %}</p></td>
+</tr>
+</table>
 <h3>
-<a name="rather-drive-stick" class="anchor" href="#rather-drive-stick"><span class="octicon octicon-link"></span></a>Open Source Projects</h3>
+</section>
 
-<p>ITA, Bluebox, Developer Portal. If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
-
-<h3>
-<a name="rather-drive-stick" class="anchor" href="#rather-drive-stick"><span class="octicon octicon-link"></span></a>About</h3>
-
-<p>GovWizely delivers software solutions for Government organizations. If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
-
-<h3>
-<a name="rather-drive-stick" class="anchor" href="#rather-drive-stick"><span class="octicon octicon-link"></span></a>Jobs</h3>
-
-<p> In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
-
-<h3>
-
-      </section>
+    <div id="footer_wrap4" class="outer">
+      <footer class="inner">
+        <!--<p id="downloads2"><strong>Washington, DC</strong><a href="https://github.com/ajsingh273"></a></p>-->
+      
+      </footer>
     </div>
+
+<section id="main_content" class="inner">
+<h3>
+<a name="rather-drive-stick" class="anchor" href="#rather-drive-stick"><span class="octicon octicon-link" id="opensource"></span></a>Open Source</h3>
+
+<p>{% include open_source %}</p>
+<h3>
+</section>
+
+    <div id="footer_wrap3" class="outer">
+      <footer class="inner">
+        <!--<p id="downloads2"><strong>Washington, DC</strong><a href="https://github.com/ajsingh273"></a></p>-->
+      
+      </footer>
+    </div>
+
+<section id="main_content" class="inner">
+<h3>
+<a name="rather-drive-stick" class="anchor" href="#rather-drive-stick"><span class="octicon octicon-link" id="about"></span></a>About</h3>
+
+<p>{% include aboutus %}</p>
+
+<h3>
