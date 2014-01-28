@@ -1,5 +1,5 @@
 ---
-permalink: "website/jobs.html"
+permalink: "/website/jobs.html"
 layout: default
 title: Ruby Jobs
 published: true
