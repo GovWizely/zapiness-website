@@ -494,4 +494,20 @@ Small Device Styles
     font-size: 11px;
   }
 
+#footer_wrap3 {
+	height:auto;
+	background-size: auto;
+background-attachment:relative;
+background-position:center bottom;
+
+}
+
+#footer_wrap4 {
+	height:auto;
+	background-size: auto;
+background-attachment:relative;
+background-position:center bottom;
+
+}
+
 }
