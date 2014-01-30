@@ -399,30 +399,27 @@ color:#000
 
 #footer_wrap4 {
 background: url('../images/court.jpg')  no-repeat ;
-background-size: 1500px;
 background-attachment:fixed;
 background-position:center bottom;
-  height: 300px;
-  font-size: 30px;
-  -webkit-box-shadow:0px 3px 3px 0px rgba(0,0,0,0.3);
+height:300px;
+font-size: 30px;
+-webkit-box-shadow:0px 3px 3px 0px rgba(0,0,0,0.3);
 box-shadow:0px 3px 3px 0px rgba(0,0,0,0.3)
 }
 #footer_wrap3 {
 background: url('../images/flags.jpg')  no-repeat ;
-background-size: 1500px;
 background-attachment:fixed;
+height:300px;
 background-position:center bottom;
-  height: 300px;
-  font-size: 30px;-webkit-box-shadow:0px 3px 3px 0px rgba(0,0,0,0.3);
+font-size: 30px;-webkit-box-shadow:0px 3px 3px 0px rgba(0,0,0,0.3);
 box-shadow:0px 3px 3px 0px rgba(0,0,0,0.3)
 }
 #footer_wrap2 {
 background: url('../images/commerce.JPG')  no-repeat ;
-background-size: 1500px;
 background-attachment:fixed;
+height:300px;
 background-position:center bottom;
-  height: 300px;
-  font-size: 30px;-webkit-box-shadow:0px 3px 3px 0px rgba(0,0,0,0.3);
+font-size: 30px;-webkit-box-shadow:0px 3px 3px 0px rgba(0,0,0,0.3);
 box-shadow:0px 3px 3px 0px rgba(0,0,0,0.3)
 }
 #downloads2 {
@@ -493,21 +490,5 @@ Small Device Styles
     max-width: 480px;
     font-size: 11px;
   }
-
-#footer_wrap3 {
-	height:auto;
-	background-size: auto;
-background-attachment:relative;
-background-position:center bottom;
-
-}
-
-#footer_wrap4 {
-	height:auto;
-	background-size: auto;
-background-attachment:relative;
-background-position:center bottom;
-
-}
 
 }
