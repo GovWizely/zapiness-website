@@ -1,13 +1,24 @@
-name: GovWizely
-pygments: true
-baseurl:
-markdown: rdiscount
-exclude:
-  - .bundle
-  - .git
-  - .gitignore
-  - bin
-  - README.md
-  - Gemfile
-  - Gemfile.lock
-  - vendor
+# Site settings
+title: GovWizely
+email: info@govwizely.com
+url: http://govwizely.github.io/website/
+description: "GovWizely helps government agencies build applications with their data. We bring modern technologies to government projects and work with our clientele to fight bureaucratic roadblocks. Plus, we love big data, and the government, if anything, has a lot of data. The founders have all worked in Silicon Valley for years, but have since retreated back to the East Coast to try to turn a battleship."
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary-dark: '#000000'
+  links: '#219ab3'
+
+# Footer settings
+footer: GovWizely
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: twitter
+    url: https://twitter.com/SBootstrap
+  - title: github
+    url: https://github.com/GovWizely
+
+# Build settings
+markdown: kramdown
+permalink: pretty
