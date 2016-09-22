@@ -1,10 +1,36 @@
-    <nav>
-  <ul>
-    <li><a href="/">Home</a></li>
-    <li><a href="#services">Services</a></li>
-    <li><a href="#opensource">Open Source</a></li>
-    <li><a href="#about">About</a></li>
-    <li><a href="/jobs.html">Jobs</a></li>
-    <li><a href="#contact">Contact</a></li>
-  </ul>
-</nav>
+<!-- Fixed navbar -->
+<div class="navbar navbar-default navbar-static-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="{{ "/"  | prepend: site.baseurl }}"><img class="img-responsive" src="{{ "/assets/img/logo.png" | prepend: site.baseurl }}" alt="logo" id="logo"></a>
+    </div>
+    <div class="navbar-collapse collapse navbar-right">
+      <ul class="nav navbar-nav">
+       <!-- <li {% if page.title == "Home" %}class="active"{% endif %}><a href="{{"/" | prepend: site.baseurl }}">Home</a></li>
+        <li {% if page.title == "Services" %}class="active"{% endif %}><a href="{{"/services/" | prepend: site.baseurl }}">Services</a></li>
+        <li {% if page.title == "Open" %}class="active"{% endif %}><a href="{{"/open/" | prepend: site.baseurl }}">Open</a></li>
+        <li {% if page.title == "Blog" %}class="active"{% endif %}><a href="{{"/blog/" | prepend: site.baseurl }}">Blog</a></li>
+        <li {% if page.title == "Our Company" %}class="active"{% endif %}><a href="{{"/about/" | prepend: site.baseurl }}">About</a></li>
+        <li {% if page.title == "Products" %}class="active"{% endif %} class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Products <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">API-in-Box</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                </ul>
+              </li>-->
+        <li {% if page.title == "Contact" %}class="active"{% endif %}><a href="{{"/contact/" | prepend: site.baseurl }}">Contact</a></li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div>
+</div>
+

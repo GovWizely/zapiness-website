@@ -1,11 +1,127 @@
 ---
-
-title: homepage
+layout: index
+title: Home
+permalink: /
 ---
-    
-{% include header.html %}
-{% include nav.html %}
-{% include main.html %}
-{% include footer.html %}
-    
 
+
+
+<div id="service">
+    <div class="container">
+        <div class="row centered">
+            <div class="col-md-4">
+                <a href="{{site.baseurl}}/visualize/">
+                <img src="{{site.baseurl}}/assets/img/chart.png">
+                <h4>{{ site.row2_col1 }}</h4>
+                </a>
+                <p>{{ site.row2_col1_description }}</p>
+            </div>
+            <div class="col-md-4">
+               <a href="{{site.baseurl}}/search/">
+               <img src="{{site.baseurl}}/assets/img/magnifier.png">
+               <h4>{{ site.row2_col2 }}</h4>
+               </a>
+                <p>{{ site.row2_col2_description }}</p>
+            </div>
+            <div class="col-md-4">
+                <a href="{{site.baseurl}}/browse/">
+                <img src="{{site.baseurl}}/assets/img/cursor.png">
+                <h4>{{ site.row2_col3 }}</h4>
+                </a>
+                <p>{{ site.row2_col3_description }}</p>
+            </div>
+        </div>
+         </br><hr>
+    </div><! --/container -->
+</div><! --/service -->
+
+<div class="hidden-sm hidden-xs">
+{% include clients.html %}
+</div>
+
+<div class="jumbotron" id="jumbo1">
+      <div class="container">
+        <div class="row centered">
+            <div class="col-md-10 col-md-offset-1">
+            <h2>{{ site.jumbo1_title }}</h2></br>
+            <div class="col-md-4">
+            <a href="{{site.baseurl}}/open/">
+            <h4>{{ site.jumbo1_step1 }}</h4>
+            </a>
+            <p>{{ site.jumbo1_step1_description }}</p>
+            </div>
+            <div class="col-md-4">
+            <a href="{{site.baseurl}}/combine/">
+            <h4>{{ site.jumbo1_step2 }}</h4>
+            </a>
+            <p>{{ site.jumbo1_step2_description }}</p>
+            </div>
+            <div class="col-md-4">
+            <a href="{{site.baseurl}}/expose/">
+            <h4>{{ site.jumbo1_step3 }}</h4>
+            </a>
+            <p>{{ site.jumbo1_step3_description }}</p>
+            </div>
+            </div>
+        </div>
+      </div>
+    </div>
+
+
+<div id="service2">
+    <div class="container">
+        <div class="row centered">
+            <h3 class="home">Our Services</h3>
+            <div class="col-md-4">
+                <a href="{{site.baseurl}}/visualize/">
+                <h4>{{ site.row4_col1 }}</h4>
+                </a>
+                <p>{{ site.row4_col1_description }}</p>
+            </div>
+            <div class="col-md-4">
+               <a href="{{site.baseurl}}/search/">
+               <h4>{{ site.row4_col2 }}</h4>
+               </a>
+                <p>{{ site.row4_col2_description }}</p>
+            </div>
+            <div class="col-md-4">
+                <a href="{{site.baseurl}}/browse/">
+                <h4>{{ site.row4_col3 }}</h4>
+                </a>
+                <p>{{ site.row4_col3_description }}</p>
+            </div>
+        </div>
+    </div><! --/container -->
+</div><! --/service -->
+
+
+
+
+<div class="container mtb">
+    <div class="row">
+        <div class="col-lg-4">
+        <h3 class="home">Social</h3>
+            <a class="twitter-timeline" width="300" href="https://twitter.com/elastic" data-widget-id="715757921662078977" data-chrome="noheader transparent noborders nofooter">Tweets by @GovWizely</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+        </div>
+
+        <div class="col-lg-4">
+            <h3 class="home">Events</h3>
+            <div class="hline"></div>
+            {% for post in site.categories['question'] limit:4 %}
+                <p>{{ post.date | date: "%b %-d, %Y" }}: <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></br>
+                <csmall>{{ post.location }}</csmall></p>
+            {% endfor %}
+        </div>
+
+        <div class="col-lg-4">
+            <h3 class="home">Blog</h3>
+            <div class="hline"></div>
+            {% for post in site.categories['blog'] limit:4 %}
+                <p><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></br>
+                <csmall>{{ post.date | date: "%b %-d, %Y" }} | By: {{ post.author }}</csmall></p>
+            {% endfor %}
+        </div>
+
+
+    </div><! --/row -->
+</div><! --/container -->

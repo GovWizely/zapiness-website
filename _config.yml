@@ -1,13 +1,184 @@
-name: GovWizely
-pygments: true
-baseurl:
-markdown: rdiscount
-exclude:
-  - .bundle
-  - .git
-  - .gitignore
-  - bin
-  - README.md
-  - Gemfile
-  - Gemfile.lock
-  - vendor
+### GENERAL SETTINGS ###
+
+# Site settings
+title: GovWizely
+description: "GovWizely helps government agencies build applications with their data. We bring modern technologies to government projects and work with our clientele to fight bureaucratic roadblocks."
+analytics: #Google analytics code in the format XX-nnnnnnnn-n
+baseurl: "/"
+# Build settings
+markdown: kramdown
+permalink: /:categories/:title
+future: true
+excerpt_separator: <!--more--> #use this in posts to define how long the excerpt of the post (that is shown on the Blog page) is
+
+colors:  #in hex code if not noted else
+  primary: "#2b8275"
+  primary_rgb: "33,130,171"
+  secondary: "#FFFFF"
+  link: "#1d7296"
+  link_hover: "#2182ab"
+  footer_heading: "#384452"
+  footer_content: "#384452"
+
+
+### CONTACT SETTINGS ###
+
+# Social networks usernames. Many more available: google-plus, flickr, linkedin, etc). Shown in footer.
+social:
+  - title: linkedin
+    url: https://www.linkedin.com/company/govwizely
+  - title: twitter
+    url: https://twitter.com/GovWizely
+  - title: github
+    url: https://github.com/govwizely/
+
+
+# Postal address (add as many lines as necessary). Shown in footer and on Contact page.
+address:
+  - lines:
+    - GovWizely, LLC
+    - 10523-A Braddock Road
+    - Fairfax, VA 22032, United States
+email: info@govwizely.com
+tel: 703.995.9913
+
+
+### GENERAL DATA FOR VARIOUS LOCATIONS ###
+
+# Members information. Shown on About page.
+members:
+  - name: Erik Arnold
+    position: Title
+    text: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+    img: erik.jpeg
+    social:
+      - title: envelope #use for email address
+        url: mailto:erik@govwizely.com
+  - name: Loren Siebert
+    position: Title
+    text: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+    img: loren.png
+    social:
+      - title: envelope #use for email address
+        url: mailto:info@govwizely.com
+  - name: David Pranata
+    position: Title
+    text: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+    img: david.png
+    social:
+      - title: envelope #use for email address
+        url: mailto:david@eigenpath.com
+  - name: James Issacs
+    position: Title
+    text: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+    img: james.jpeg
+    social:
+      - title: envelope #use for email address
+        url: mailto:james@govwizely.com
+  - name: Tim Hammer
+    position: Title
+    text: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+    img: tim.png
+    social:
+      - title: envelope #use for email address
+        url: mailto:tim@govwizely.com
+  - name: AJ Singh
+    position: Title
+    text: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+    img: aj.png
+    social:
+      - title: envelope #use for email address
+        url: mailto:aj@govwizely.com
+
+# Clients information. Shown on Home and About pages.
+clients:
+  - name: GSA
+    img: gsa.png
+    link: http://www.gsa.gov/
+  - name: ITA
+    img: ita.png
+    link: http://trade.gov/
+  - name: FTC
+    img: ftc.png
+    link: https://www.ftc.gov/
+  - name: SUSA
+    img: susa.png
+    link: https://www.selectusa.gov
+
+# Home page row1
+row1_img: https://images.unsplash.com/photo-1443996104801-80c82e789b18?dpr=2&auto=format&crop=entropy&fit=crop&w=1500&h=997&q=80&cs=tinysrgb
+row1_h1: Turn your data into APIs in minutes!
+row1_h4: No programming required.
+row1_button: Get Started
+
+# Home page row2
+row2_col1: Visualize
+row2_col1_description: Intuitive dashboards for real-time analytics with sharing capabilities. 
+row2_col2: Search
+row2_col2_description: Allow your users to search across all your content and data -- security and in real time.
+row2_col3: Browse
+row2_col3_description: Advanced faceting capabilities allows your users to manipulate data with simplicity.
+
+# Home page jumbo1
+jumbo1_title: How It Works
+jumbo1_step1: Open
+jumbo1_step1_description: Your organizations trapped information from proprietary formats into standards.
+jumbo1_step2: Combine
+jumbo1_step2_description: Internal siloed information to fuse information together for search and analysis.
+jumbo1_step3: Share
+jumbo1_step3_description: Your freed data internally, with your partners, or with the entire world.
+
+# Home page jumbo2
+jumbo2_p1: Custom information solutions based on your needs.
+
+# Home page row4
+row4_col1: Planning
+row4_col1_description: We'll find hidden data and map a path for to expose the content.
+row4_col2: Development
+row4_col2_description: We will develop / customize our tools to meet your search and open data needs.
+row4_col3: Support
+row4_col3_description: We offer all levels of support needed for your orgnaization.
+
+# Products page
+products_img: https://images.unsplash.com/photo-1452457750107-cd084dce177d
+products_title: content title
+products_description: API-in-a-box...
+
+# Browse page
+browse_img: https://images.unsplash.com/photo-1452457750107-cd084dce177d
+browse_title: content title
+browse_description: Leverage your taxonomy to make complex filtering easy
+
+# Combine page
+combine_img: https://images.unsplash.com/photo-1432821596592-e2c18b78144f
+combine_title: content title
+combine_description: Have a taxonomy or leverage industry standard terms? </br></br> Instantly combine them
+
+# Expose page
+expose_img: https://images.unsplash.com/photo-1453060113865-968cea1ad53a
+expose_title: content title
+expose_description: Expose the content in machine readable format for public or private needs
+
+# Open page
+open_img: https://images.unsplash.com/photo-1468495244123-6c6c332eeece
+open_title: content title
+open_description: Empower non-programmers to import informant important to their task. </br></br> In any format. </br></br> From a file or URL.
+
+# Search page
+search_img: https://images.unsplash.com/photo-1468495244123-6c6c332eeece
+search_title: content title
+search_description: Search text lorem ipsum...
+
+# Visualize page
+visualize_img: https://images.unsplash.com/photo-1431605695381-f4a9c3cdd150
+visualize_title: content title
+visualize_description: View the information in real time and dig digger with some clicks
+
+
+# Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
+about: "GovWizely helps government agencies build applications with their data. We bring modern technologies to government projects and work with our clientele to fight bureaucratic roadblocks."
+
+# Testimonial content. Shown on Home and About page.
+testimonial:
+    message: "GovWizely helps government agencies build applications with their data. We bring modern technologies to government projects and work with our clientele to fight bureaucratic roadblocks. Plus, we love big data, and the government, if anything, has a lot of data. The founders have all worked in Silicon Valley for years, but have since retreated back to the East Coast to try to turn a battleship."
+    title: Who We Are

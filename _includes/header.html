@@ -1,29 +1,11 @@
-<!DOCTYPE html>
-<html>
-
-  <head>
-    <meta charset='utf-8' />
-    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="description" content="Website : " />
-
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
-
-    <title>GovWizely</title>
-  </head>
-
-  <body>
-
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <!--<a id="forkme_banner" href="https://github.com/ajsingh273/website">View on GitHub</a>-->
-
-         <center><h1 id="project_title"><a href="http://govwizely.github.io/website/"><img  src="images/logo.png" width="350px" ></a></h1></center>
-          <center><h2 id="project_tagline">{% include tagline %}</h2></center>
-
-            <section id="downloads">
-              <!--<a class="tar_download_link" href="https://github.com/ajsingh273/website/tarball/master">Download this project as a tar.gz file</a>-->
-            </section>
-        </header>
-    </div>
-    
+<div id="headerwrap" style="width:100%; margin-top:0;margin-bottom:0;background-image: url('{{ site.row1_img }}'); background-repeat:no-repeat; background-size: cover;background-position:center top;">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h1>{{ site.row1_h1 }}</h1>
+                <h4>{{ site.row1_h4 }}</h4></br>
+                <h5><a class="btn btn-theme-intro" href="http://75.101.146.141/"><i class="fa fa-play" aria-hidden="true"></i>&nbsp;&nbsp;{{ site.row1_button }}</a></h5>    
+            </div>
+        </div><!-- /row -->
+    </div> <!-- /container -->
+</div><!-- /headerwrap -->

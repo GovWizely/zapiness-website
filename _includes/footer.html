@@ -1,23 +1,19 @@
-      </section>
-      
-    </div>
-    <!-- FOOTER  -->
-    <div id="footer_wrap2" class="outer">
-      <footer class="inner">
-        <!--<p id="downloads2"><strong>Washington, DC</strong><a href="https://github.com/ajsingh273"></a></p>-->
-      
-      </footer>
-    </div>
-    
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <center><p class="copyright" id="contact"><strong>CONTACT </strong></p>
-        <p id="addy">{% include contact_us %}</p></center>
-      </footer>
-    </div>
+<div id="footerwrap">
+    <div class="container">
+        <div class="row text-center">
+                <p><small>
+                    {% for line in site.address.first.lines %}
+                        {{ line }} <br>
+                    {% endfor %}
+                </small></p></br>
+                <p>
+                    {% for network in site.social %}
+                        <a href="{{ network.url }}" class="btn-social btn-outline"><i class="fa fa-{{ network.title }}"></i></a>
+                    {% endfor %}
+                </p>
+        </div><! --/row -->
+    </div><! --/container -->
+</div><! --/footerwrap -->
 
-    
 
-  </body>
-</html>
+
