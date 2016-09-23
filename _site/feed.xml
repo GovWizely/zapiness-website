@@ -3,10 +3,10 @@
   <channel>
     <title>GovWizely</title>
     <description>GovWizely helps government agencies build applications with their data. We bring modern technologies to government projects and work with our clientele to fight bureaucratic roadblocks.</description>
-    <link>/gw/</link>
-    <atom:link href="/gw/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 22 Sep 2016 17:12:32 -0400</pubDate>
-    <lastBuildDate>Thu, 22 Sep 2016 17:12:32 -0400</lastBuildDate>
+    <link>/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Thu, 22 Sep 2016 22:31:55 -0400</pubDate>
+    <lastBuildDate>Thu, 22 Sep 2016 22:31:55 -0400</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
@@ -15,8 +15,8 @@
 &lt;p&gt;Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.&lt;/p&gt;
 </description>
         <pubDate>Sat, 27 Aug 2016 00:00:00 -0400</pubDate>
-        <link>/gw/project/i94-search</link>
-        <guid isPermaLink="true">/gw/project/i94-search</guid>
+        <link>/project/i94-search</link>
+        <guid isPermaLink="true">/project/i94-search</guid>
         
         
         <category>project</category>
@@ -29,8 +29,8 @@
 
 </description>
         <pubDate>Mon, 28 Mar 2016 12:54:46 -0400</pubDate>
-        <link>/gw/blog/elasticsearch/es-upgrade</link>
-        <guid isPermaLink="true">/gw/blog/elasticsearch/es-upgrade</guid>
+        <link>/blog/elasticsearch/es-upgrade</link>
+        <guid isPermaLink="true">/blog/elasticsearch/es-upgrade</guid>
         
         
         <category>blog</category>
@@ -44,8 +44,8 @@
         <description>&lt;p&gt;https://www.elastic.co/elasticon/conf/2016/sf&lt;/p&gt;
 </description>
         <pubDate>Wed, 17 Feb 2016 11:54:46 -0500</pubDate>
-        <link>/gw/conference/question/your-project-name-copy</link>
-        <guid isPermaLink="true">/gw/conference/question/your-project-name-copy</guid>
+        <link>/conference/question/your-project-name-copy</link>
+        <guid isPermaLink="true">/conference/question/your-project-name-copy</guid>
         
         
         <category>conference</category>
@@ -59,8 +59,8 @@
         <description>&lt;p&gt;Lorem…&lt;/p&gt;
 </description>
         <pubDate>Fri, 01 Jan 2016 11:54:46 -0500</pubDate>
-        <link>/gw/blog/random/newyear</link>
-        <guid isPermaLink="true">/gw/blog/random/newyear</guid>
+        <link>/blog/random/newyear</link>
+        <guid isPermaLink="true">/blog/random/newyear</guid>
         
         
         <category>blog</category>
@@ -75,8 +75,8 @@
 
 </description>
         <pubDate>Wed, 30 Dec 2015 11:54:46 -0500</pubDate>
-        <link>/gw/question/your-project-name</link>
-        <guid isPermaLink="true">/gw/question/your-project-name</guid>
+        <link>/question/your-project-name</link>
+        <guid isPermaLink="true">/question/your-project-name</guid>
         
         
         <category>question</category>
@@ -89,8 +89,8 @@
 &lt;p&gt;Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.&lt;/p&gt;
 </description>
         <pubDate>Mon, 28 Dec 2015 00:00:00 -0500</pubDate>
-        <link>/gw/project/market-intelligence</link>
-        <guid isPermaLink="true">/gw/project/market-intelligence</guid>
+        <link>/project/market-intelligence</link>
+        <guid isPermaLink="true">/project/market-intelligence</guid>
         
         
         <category>project</category>
@@ -104,8 +104,8 @@
 
 </description>
         <pubDate>Sun, 27 Dec 2015 00:00:00 -0500</pubDate>
-        <link>/gw/project/explorer</link>
-        <guid isPermaLink="true">/gw/project/explorer</guid>
+        <link>/project/explorer</link>
+        <guid isPermaLink="true">/project/explorer</guid>
         
         
         <category>project</category>
@@ -118,8 +118,8 @@
 &lt;p&gt;Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.&lt;/p&gt;
 </description>
         <pubDate>Fri, 25 Dec 2015 00:00:00 -0500</pubDate>
-        <link>/gw/project/developer-portal</link>
-        <guid isPermaLink="true">/gw/project/developer-portal</guid>
+        <link>/project/developer-portal</link>
+        <guid isPermaLink="true">/project/developer-portal</guid>
         
         
         <category>project</category>
@@ -132,8 +132,8 @@
 
 </description>
         <pubDate>Wed, 23 Dec 2015 11:54:46 -0500</pubDate>
-        <link>/gw/blog/meetup/ita-hh</link>
-        <guid isPermaLink="true">/gw/blog/meetup/ita-hh</guid>
+        <link>/blog/meetup/ita-hh</link>
+        <guid isPermaLink="true">/blog/meetup/ita-hh</guid>
         
         
         <category>blog</category>
@@ -148,8 +148,8 @@
 &lt;p&gt;Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.&lt;/p&gt;
 </description>
         <pubDate>Sun, 20 Dec 2015 00:00:00 -0500</pubDate>
-        <link>/gw/project/webservices</link>
-        <guid isPermaLink="true">/gw/project/webservices</guid>
+        <link>/project/webservices</link>
+        <guid isPermaLink="true">/project/webservices</guid>
         
         
         <category>project</category>
