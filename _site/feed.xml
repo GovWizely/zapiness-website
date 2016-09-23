@@ -5,8 +5,8 @@
     <description>GovWizely helps government agencies build applications with their data. We bring modern technologies to government projects and work with our clientele to fight bureaucratic roadblocks.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 22 Sep 2016 22:31:55 -0400</pubDate>
-    <lastBuildDate>Thu, 22 Sep 2016 22:31:55 -0400</lastBuildDate>
+    <pubDate>Thu, 22 Sep 2016 23:11:48 -0400</pubDate>
+    <lastBuildDate>Thu, 22 Sep 2016 23:11:48 -0400</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
@@ -24,9 +24,31 @@
       </item>
     
       <item>
-        <title>Blog: Webservices Upgraded to ES2.2</title>
-        <description>&lt;p&gt;Lorem ipsum….&lt;/p&gt;
+        <title>Blog: ITA Legacy sites launched!</title>
+        <description>&lt;p&gt;Data and search powered webites.&lt;/p&gt;
 
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.export.gov&quot;&gt;https://www.export.gov&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.selectusa.gov&quot;&gt;https://www.selectusa.gov&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.privacyshield.gov&quot;&gt;https://www.privacyshield.gov&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.stopfakes.gov&quot;&gt;https://www.stopfakes.gov&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Tue, 28 Jun 2016 12:54:46 -0400</pubDate>
+        <link>/blog/ita/ita-websites</link>
+        <guid isPermaLink="true">/blog/ita/ita-websites</guid>
+        
+        
+        <category>blog</category>
+        
+        <category>ITA</category>
+        
+      </item>
+    
+      <item>
+        <title>Blog: Webservices Upgraded to ES2.2</title>
+        <description>
 </description>
         <pubDate>Mon, 28 Mar 2016 12:54:46 -0400</pubDate>
         <link>/blog/elasticsearch/es-upgrade</link>
@@ -40,32 +62,15 @@
       </item>
     
       <item>
-        <title>Conference: Elastic{ON}16: The Elasticsearch User Conference</title>
-        <description>&lt;p&gt;https://www.elastic.co/elasticon/conf/2016/sf&lt;/p&gt;
+        <title>Question: Elastic{ON}16: The Elasticsearch User Conference</title>
+        <description>&lt;p&gt;&lt;a href=&quot;https://www.elastic.co/elasticon/conf/2016/sf&quot;&gt;https://www.elastic.co/elasticon/conf/2016/sf&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Wed, 17 Feb 2016 11:54:46 -0500</pubDate>
-        <link>/conference/question/your-project-name-copy</link>
-        <guid isPermaLink="true">/conference/question/your-project-name-copy</guid>
+        <link>/question/elacticon16</link>
+        <guid isPermaLink="true">/question/elacticon16</guid>
         
-        
-        <category>conference</category>
         
         <category>question</category>
-        
-      </item>
-    
-      <item>
-        <title>Blog: Happy New Year!</title>
-        <description>&lt;p&gt;Lorem…&lt;/p&gt;
-</description>
-        <pubDate>Fri, 01 Jan 2016 11:54:46 -0500</pubDate>
-        <link>/blog/random/newyear</link>
-        <guid isPermaLink="true">/blog/random/newyear</guid>
-        
-        
-        <category>blog</category>
-        
-        <category>Random</category>
         
       </item>
     
@@ -75,8 +80,8 @@
 
 </description>
         <pubDate>Wed, 30 Dec 2015 11:54:46 -0500</pubDate>
-        <link>/question/your-project-name</link>
-        <guid isPermaLink="true">/question/your-project-name</guid>
+        <link>/question/ita-offsite</link>
+        <guid isPermaLink="true">/question/ita-offsite</guid>
         
         
         <category>question</category>

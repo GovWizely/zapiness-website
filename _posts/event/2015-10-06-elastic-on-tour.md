@@ -6,8 +6,6 @@ location: Washington, D.C.
 carousel:
 - elastic.png
 categories:
-- elastic
-- tips/tricks
 - question
 ---
 

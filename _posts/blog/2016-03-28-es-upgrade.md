@@ -9,6 +9,6 @@ categories:
 img: elastic-json-thumbnail.png
 ---
 
-Lorem ipsum....
+
 
 
