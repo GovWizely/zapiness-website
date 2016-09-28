@@ -5,9 +5,22 @@
     <description>GovWizely helps government agencies build applications with their data. We bring modern technologies to government projects and work with our clientele to fight bureaucratic roadblocks.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 22 Sep 2016 23:11:48 -0400</pubDate>
-    <lastBuildDate>Thu, 22 Sep 2016 23:11:48 -0400</lastBuildDate>
+    <pubDate>Wed, 28 Sep 2016 09:21:20 -0400</pubDate>
+    <lastBuildDate>Wed, 28 Sep 2016 09:21:20 -0400</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
+    
+      <item>
+        <title>Question: White House Open Data Innovation Summit</title>
+        <description>&lt;p&gt;&lt;a href=&quot;https://www.data.gov/event/white-house-open-data-innovation-summit/&quot;&gt;https://www.data.gov/event/white-house-open-data-innovation-summit/&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Thu, 06 Oct 2016 12:54:46 -0400</pubDate>
+        <link>/question/white-house-open-data-innovation-summit</link>
+        <guid isPermaLink="true">/question/white-house-open-data-innovation-summit</guid>
+        
+        
+        <category>question</category>
+        
+      </item>
     
       <item>
         <title>Project: I94 Search</title>
@@ -144,20 +157,6 @@
         <category>blog</category>
         
         <category>Meetup</category>
-        
-      </item>
-    
-      <item>
-        <title>Project: ITA Data Services</title>
-        <description>&lt;h4 id=&quot;data-services&quot;&gt;Data Services…&lt;/h4&gt;
-&lt;p&gt;Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.&lt;/p&gt;
-</description>
-        <pubDate>Sun, 20 Dec 2015 00:00:00 -0500</pubDate>
-        <link>/project/webservices</link>
-        <guid isPermaLink="true">/project/webservices</guid>
-        
-        
-        <category>project</category>
         
       </item>
     
