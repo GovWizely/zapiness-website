@@ -13,6 +13,7 @@
 @import 'https://fonts.googleapis.com/css?family=Titillium+Web:200,300,400';
 @import 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700,900';
 @import 'https://fonts.googleapis.com/css?family=Catamaran:400,800';
+@import 'https://fonts.googleapis.com/css?family=Roboto:400,700,900';
 @import url("prettyPhoto.css") screen;
 @import url("hoverex-all.css") screen;
 
@@ -201,13 +202,13 @@ margin: 0px auto 15px;
 }
 
 .btn-theme-intro {
-  color: #fff;
-  font-size:18px;
-  background-color: #33998a;
-  border-color: #33998a;
-  margin: 4px;
-  border-radius: 20px;
-  padding: 10px 40px;
+	color: #6e8291;
+    font-size: 18px;
+    background-color: #fff;
+    border-color: #fff;
+    margin: 4px;
+    border-radius: 20px;
+    padding: 10px 40px;
 }
 .btn-theme-intro:hover,
 .btn-theme-intro:focus,
@@ -217,8 +218,8 @@ margin: 0px auto 15px;
   color: #fff;
   background-color: #39ac9b;
   border-color: #39ac9b;
-      -webkit-transition-duration: 0.2s; /* Safari */
-    transition-duration: 0.2s;
+      -webkit-transition-duration: 0.3s; /* Safari */
+    transition-duration: 0.3s;
 }
 
 .btn-theme {
@@ -298,7 +299,7 @@ margin: 0px auto 15px;
 #headerwrap {
 	background-color: #2b8275;
 	min-height: 0px;
-	padding-top: 75px;
+	padding-top: 60px;
 	padding-bottom: 50px;
 	text-align: center;
 }
@@ -309,25 +310,32 @@ margin: 0px auto 15px;
 }
 
 #headerwrap h1 {
-	color: #1d7296;
-	margin-bottom: 25px;
-	font-weight: 800;
-font-family: 'Catamaran', sans-serif;
+	color: #6e8291;
+	font-size: 35px;
+	font-weight: 700;
+font-family: 'Roboto', sans-serif;
 }
 
 #headerwrap h4 {
-color:#1d7296;
+color:#6e8291;
+}
+
+#apis {
+	font-size:45px;font-weight:900;
 }
 
 @media (max-width:767px) {
 #headerwrap h1 {
 color:#fff;
 font-size:26px;
-margin-top:35px;
+margin-top:0px;
 }
 #headerwrap h4 {
 color:#fff;
 font-size:14px;
+}
+#apis {
+	font-size:45px;font-weight:900;
 }
 }
 
@@ -349,8 +357,16 @@ font-size:14px;
 	padding: 15px;
 }
 #service h4 {
-color:#2e4450;font-size:18px;margin-bottom:0;font-weight:600;
+	color: #2e4450;
+    font-size: 16px;
+    margin-bottom: 0;
+    font-weight: 400;
 }
+
+#service h4:hover{
+	color: #2182ab;
+}
+
 #service p {
 font-weight:300;
 margin-top:5px;
@@ -363,7 +379,7 @@ width:60px;
 #service2 {
 	margin-top: 0px;
 	margin-bottom: 0px;
-	background:#f6f6f6;
+	background:#fafafa;
 	padding-top:50px;
 	padding-bottom:50px;
 }
@@ -394,6 +410,9 @@ background-color:#fff;margin-top:0px;margin-bottom:0;padding-top:0px;padding-bot
 }
 #jumbo1 h4 {
 	color:#2e4450;font-size:24px;margin-bottom:0;font-weight:400;
+}
+#jumbo1 h4:hover{
+    color: #39ac9b;
 }
 #jumbo1 p {
 	font-size:18px;line-height:1.5em;

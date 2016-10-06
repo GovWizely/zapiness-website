@@ -139,40 +139,55 @@ row4_col2_description: We will develop / customize our tools to meet your search
 row4_col3: Support
 row4_col3_description: We offer all levels of support needed for your orgnaization.
 
-# Products page
-products_img: https://images.unsplash.com/photo-1452457750107-cd084dce177d
-products_title: content title
-products_description: API-in-a-box...
+# API in box page
+api_in_box_img: https://images.unsplash.com/photo-1452457750107-cd084dce177d
+api_in_box_title: content title
+api_in_box_description: API-in-a-box...
 
-# Browse page
-browse_img: https://images.unsplash.com/photo-1452457750107-cd084dce177d
-browse_title: content title
-browse_description: Leverage your taxonomy to make complex filtering easy
-
-# Combine page
-combine_img: https://images.unsplash.com/photo-1432821596592-e2c18b78144f
-combine_title: content title
-combine_description: Have a taxonomy or leverage industry standard terms? </br></br> Instantly combine them
-
-# Expose page
-expose_img: https://images.unsplash.com/photo-1453060113865-968cea1ad53a
-expose_title: content title
-expose_description: Expose the content in machine readable format for public or private needs
-
-# Open page
-open_img: https://images.unsplash.com/photo-1468495244123-6c6c332eeece
-open_title: content title
-open_description: Empower non-programmers to import informant important to their task. </br></br> In any format. </br></br> From a file or URL.
+# Visualize page
+visualize_img: https://images.unsplash.com/photo-1431605695381-f4a9c3cdd150
+visualize_title: content title
+visualize_description: View the information in real time and dig digger with some clicks
 
 # Search page
 search_img: https://images.unsplash.com/photo-1468495244123-6c6c332eeece
 search_title: content title
 search_description: Search text lorem ipsum...
 
-# Visualize page
-visualize_img: https://images.unsplash.com/photo-1431605695381-f4a9c3cdd150
-visualize_title: content title
-visualize_description: View the information in real time and dig digger with some clicks
+# Browse page
+browse_img: https://images.unsplash.com/photo-1452457750107-cd084dce177d
+browse_title: content title
+browse_description: Leverage your taxonomy to make complex filtering easy
+
+# Open page
+open_img: https://images.unsplash.com/photo-1468495244123-6c6c332eeece
+open_title: content title
+open_description: Empower non-programmers to import informant important to their task. </br></br> In any format. </br></br> From a file or URL.
+
+# Combine page
+combine_img: https://images.unsplash.com/photo-1432821596592-e2c18b78144f
+combine_title: content title
+combine_description: Have a taxonomy or leverage industry standard terms? </br></br> Instantly combine them
+
+# Share page
+share_img: https://images.unsplash.com/photo-1431605695381-f4a9c3cdd150
+share_title: content title
+share_description: View the information in real time and dig digger with some clicks
+
+# Planning page
+planning_img: https://images.unsplash.com/photo-1431605695381-f4a9c3cdd150
+planning_title: content title
+planning_description: View the information in real time and dig digger with some clicks
+
+# Development page
+development_img: https://images.unsplash.com/photo-1431605695381-f4a9c3cdd150
+development_title: content title
+development_description: View the information in real time and dig digger with some clicks
+
+# Support page
+support_img: https://images.unsplash.com/photo-1431605695381-f4a9c3cdd150
+support_title: content title
+support_description: View the information in real time and dig digger with some clicks
 
 
 # Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
