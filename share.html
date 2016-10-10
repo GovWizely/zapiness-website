@@ -21,7 +21,11 @@ permalink: /share/
     <div class="row">
         <div class="col-md-6">
         	<h5 class="content-title">{{ site.share_title }}</h5>
-        	<li>{{ site.share_description }}</li>
+             {% for share_description in site.share_descriptions %}
+             <ul>
+             <li>{{ share_description.bullet }}</li>
+            </ul>
+            {% endfor %}
         </div>
         <div class="col-md-6">
         	<img src="{{ site.share_img }}">

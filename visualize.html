@@ -20,7 +20,11 @@ permalink: /visualize/
     <div class="row">
         <div class="col-md-6">
         	<h5 class="content-title">{{ site.visualize_title }}</h5>
-        	<li>{{ site.visualize_description }}<li>
+            {% for visualize_description in site.visualize_descriptions %}
+             <ul>
+             <li>{{ visualize_description.bullet }}</li>
+            </ul>
+            {% endfor %}
         </div>
         <div class="col-md-6">
         	<img src="{{ site.visualize_img }}">

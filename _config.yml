@@ -147,48 +147,74 @@ api_in_box_description: API-in-a-box...
 # Visualize page
 visualize_img: https://images.unsplash.com/photo-1431605695381-f4a9c3cdd150
 visualize_title: content title
-visualize_description: View the information in real time and dig digger with some clicks
+visualize_descriptions:
+  - bullet: lafbwivba
+  - bullet: hvbasivba
+  - bullet: vjsovbswov
 
 # Search page
 search_img: https://images.unsplash.com/photo-1468495244123-6c6c332eeece
 search_title: content title
-search_description: Search text lorem ipsum...
+search_descriptions:
+  - bullet: lafbwivba
+  - bullet: hvbasivba
+  - bullet: vjsovbswov
 
 # Browse page
 browse_img: https://images.unsplash.com/photo-1452457750107-cd084dce177d
 browse_title: content title
-browse_description: Leverage your taxonomy to make complex filtering easy
+browse_descriptions:
+  - bullet: lafbwivba
+  - bullet: hvbasivba
+  - bullet: vjsovbswov
 
 # Open page
 open_img: https://images.unsplash.com/photo-1468495244123-6c6c332eeece
 open_title: content title
-open_description: Empower non-programmers to import informant important to their task. </br></br> In any format. </br></br> From a file or URL.
+open_descriptions:
+  - bullet: lafbwivba
+  - bullet: hvbasivba
+  - bullet: vjsovbswov
 
 # Combine page
 combine_img: https://images.unsplash.com/photo-1432821596592-e2c18b78144f
 combine_title: content title
-combine_description: Have a taxonomy or leverage industry standard terms? </br></br> Instantly combine them
+combine_descriptions:
+  - bullet: lafbwivba
+  - bullet: hvbasivba
+  - bullet: vjsovbswov
 
 # Share page
 share_img: https://images.unsplash.com/photo-1431605695381-f4a9c3cdd150
 share_title: content title
-share_description: View the information in real time and dig digger with some clicks
+share_descriptions:
+  - bullet: lafbwivba
+  - bullet: hvbasivba
+  - bullet: vjsovbswov
 
 # Planning page
 planning_img: https://images.unsplash.com/photo-1431605695381-f4a9c3cdd150
 planning_title: content title
-planning_description: View the information in real time and dig digger with some clicks
+planning_descriptions:
+  - bullet: lafbwivba
+  - bullet: hvbasivba
+  - bullet: vjsovbswov
 
 # Development page
 development_img: https://images.unsplash.com/photo-1431605695381-f4a9c3cdd150
 development_title: content title
-development_description: View the information in real time and dig digger with some clicks
+development_descriptions:
+  - bullet: lafbwivba
+  - bullet: hvbasivba
+  - bullet: vjsovbswov
 
 # Support page
 support_img: https://images.unsplash.com/photo-1431605695381-f4a9c3cdd150
 support_title: content title
-support_description: View the information in real time and dig digger with some clicks
-
+support_descriptions:
+  - bullet: lafbwivba
+  - bullet: hvbasivba
+  - bullet: vjsovbswov
 
 # Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
 about: "GovWizely helps government agencies build applications with their data. We bring modern technologies to government projects and work with our clientele to fight bureaucratic roadblocks."

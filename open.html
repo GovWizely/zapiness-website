@@ -18,7 +18,11 @@ permalink: /open/
     <div class="row">
         <div class="col-md-6">
         	<h5 class="content-title">{{ site.open_title }}</h5>
-        	<li>{{ site.open_description }}</li>
+            {% for open_description in site.open_descriptions %}
+             <ul>
+             <li>{{ open_description.bullet }}</li>
+            </ul>
+            {% endfor %}
         </div>
         <div class="col-md-6">
         	<img src="{{ site.open_img }}">

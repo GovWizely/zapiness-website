@@ -20,7 +20,11 @@ permalink: /search/
     <div class="row">
         <div class="col-md-6">
         	<h5 class="content-title">{{ site.search_title }}</h5>
-        	<li>{{ site.search_description }}</li>
+             {% for search_description in site.search_descriptions %}
+             <ul>
+             <li>{{ search_description.bullet }}</li>
+            </ul>
+            {% endfor %}
         </div>
         <div class="col-md-6">
         	<img src="{{ site.search_img }}">

@@ -21,7 +21,11 @@ permalink: /planning/
     <div class="row">
         <div class="col-md-6">
         	<h5 class="content-title">{{ site.planning_title }}</h5>
-        	<li>{{ site.planning_description }}</li>
+            {% for planning_description in site.planning_descriptions %}
+             <ul>
+             <li>{{ planning_description.bullet }}</li>
+            </ul>
+            {% endfor %}
         </div>
         <div class="col-md-6">
         	<img src="{{ site.planning_img }}">

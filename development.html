@@ -21,7 +21,11 @@ permalink: /development/
     <div class="row">
         <div class="col-md-6">
         	<h5 class="content-title">{{ site.development_title }}</h5>
-        	<li>{{ site.development_description }}</li>
+             {% for development_description in site.development_descriptions %}
+             <ul>
+             <li>{{ development_description.bullet }}</li>
+            </ul>
+            {% endfor %}
         </div>
         <div class="col-md-6">
         	<img src="{{ site.development_img }}">

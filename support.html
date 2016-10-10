@@ -21,7 +21,11 @@ permalink: /support/
     <div class="row">
         <div class="col-md-6">
         	<h5 class="content-title">{{ site.support_title }}</h5>
-        	<li>{{ site.support_description }}</li>
+             {% for support_description in site.support_descriptions %}
+             <ul>
+             <li>{{ support_description.bullet }}</li>
+            </ul>
+            {% endfor %}
         </div>
         <div class="col-md-6">
         	<img src="{{ site.support_img }}">

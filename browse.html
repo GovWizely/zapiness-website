@@ -21,7 +21,11 @@ permalink: /browse/
     <div class="row">
         <div class="col-md-6">
         	<h5 class="content-title">{{ site.browse_title }}</h5>
-        	<li>{{ site.browse_description }}</li>
+            {% for browse_description in site.browse_descriptions %}
+             <ul>
+             <li>{{ browse_description.bullet }}</li>
+            </ul>
+            {% endfor %}
         </div>
         <div class="col-md-6">
         	<img src="{{ site.browse_img }}">

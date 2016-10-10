@@ -21,7 +21,11 @@ permalink: /combine/
     <div class="row">
         <div class="col-md-6">
         	<h5 class="content-title">{{ site.combine_title }}</h5>
-        	<li>{{ site.combine_description }}</li>
+            {% for combine_description in site.combine_descriptions %}
+             <ul>
+             <li>{{ combine_description.bullet }}</li>
+            </ul>
+            {% endfor %}
         </div>
         <div class="col-md-6">
         	<img src="{{ site.combine_img }}">
