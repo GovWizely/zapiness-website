@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>GovWizely</title>
-    <description>GovWizely helps government agencies build applications with their data. We bring modern technologies to government projects and work with our clientele to fight bureaucratic roadblocks.</description>
-    <link>/</link>
-    <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 09 Oct 2016 22:34:06 -0400</pubDate>
-    <lastBuildDate>Sun, 09 Oct 2016 22:34:06 -0400</lastBuildDate>
-    <generator>Jekyll v3.2.1</generator>
+    <title>zAPIness</title>
+    <description>zAPIness turns data in APIs in seconds eliminating manual processes for converting.</description>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Fri, 24 Mar 2017 15:57:25 -0400</pubDate>
+    <lastBuildDate>Fri, 24 Mar 2017 15:57:25 -0400</lastBuildDate>
+    <generator>Jekyll v3.4.3</generator>
     
       <item>
         <title>Question: White House Open Data Innovation Summit</title>
         <description>&lt;p&gt;&lt;a href=&quot;https://www.data.gov/event/white-house-open-data-innovation-summit/&quot;&gt;https://www.data.gov/event/white-house-open-data-innovation-summit/&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Thu, 06 Oct 2016 12:54:46 -0400</pubDate>
-        <link>/question/white-house-open-data-innovation-summit</link>
-        <guid isPermaLink="true">/question/white-house-open-data-innovation-summit</guid>
+        <link>http://localhost:4000/question/white-house-open-data-innovation-summit</link>
+        <guid isPermaLink="true">http://localhost:4000/question/white-house-open-data-innovation-summit</guid>
         
         
         <category>question</category>
@@ -28,8 +28,8 @@
 &lt;p&gt;Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.&lt;/p&gt;
 </description>
         <pubDate>Sat, 27 Aug 2016 00:00:00 -0400</pubDate>
-        <link>/project/i94-search</link>
-        <guid isPermaLink="true">/project/i94-search</guid>
+        <link>http://localhost:4000/project/i94-search</link>
+        <guid isPermaLink="true">http://localhost:4000/project/i94-search</guid>
         
         
         <category>project</category>
@@ -49,8 +49,8 @@
 
 </description>
         <pubDate>Tue, 28 Jun 2016 12:54:46 -0400</pubDate>
-        <link>/blog/ita/ita-websites</link>
-        <guid isPermaLink="true">/blog/ita/ita-websites</guid>
+        <link>http://localhost:4000/blog/ita/ita-websites</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/ita/ita-websites</guid>
         
         
         <category>blog</category>
@@ -64,8 +64,8 @@
         <description>
 </description>
         <pubDate>Mon, 28 Mar 2016 12:54:46 -0400</pubDate>
-        <link>/blog/elasticsearch/es-upgrade</link>
-        <guid isPermaLink="true">/blog/elasticsearch/es-upgrade</guid>
+        <link>http://localhost:4000/blog/elasticsearch/es-upgrade</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/elasticsearch/es-upgrade</guid>
         
         
         <category>blog</category>
@@ -79,8 +79,8 @@
         <description>&lt;p&gt;&lt;a href=&quot;https://www.elastic.co/elasticon/conf/2016/sf&quot;&gt;https://www.elastic.co/elasticon/conf/2016/sf&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Wed, 17 Feb 2016 11:54:46 -0500</pubDate>
-        <link>/question/elacticon16</link>
-        <guid isPermaLink="true">/question/elacticon16</guid>
+        <link>http://localhost:4000/question/elacticon16</link>
+        <guid isPermaLink="true">http://localhost:4000/question/elacticon16</guid>
         
         
         <category>question</category>
@@ -93,8 +93,8 @@
 
 </description>
         <pubDate>Wed, 30 Dec 2015 11:54:46 -0500</pubDate>
-        <link>/question/ita-offsite</link>
-        <guid isPermaLink="true">/question/ita-offsite</guid>
+        <link>http://localhost:4000/question/ita-offsite</link>
+        <guid isPermaLink="true">http://localhost:4000/question/ita-offsite</guid>
         
         
         <category>question</category>
@@ -107,8 +107,8 @@
 &lt;p&gt;Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.&lt;/p&gt;
 </description>
         <pubDate>Mon, 28 Dec 2015 00:00:00 -0500</pubDate>
-        <link>/project/market-intelligence</link>
-        <guid isPermaLink="true">/project/market-intelligence</guid>
+        <link>http://localhost:4000/project/market-intelligence</link>
+        <guid isPermaLink="true">http://localhost:4000/project/market-intelligence</guid>
         
         
         <category>project</category>
@@ -122,8 +122,8 @@
 
 </description>
         <pubDate>Sun, 27 Dec 2015 00:00:00 -0500</pubDate>
-        <link>/project/explorer</link>
-        <guid isPermaLink="true">/project/explorer</guid>
+        <link>http://localhost:4000/project/explorer</link>
+        <guid isPermaLink="true">http://localhost:4000/project/explorer</guid>
         
         
         <category>project</category>
@@ -136,8 +136,8 @@
 &lt;p&gt;Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.&lt;/p&gt;
 </description>
         <pubDate>Fri, 25 Dec 2015 00:00:00 -0500</pubDate>
-        <link>/project/developer-portal</link>
-        <guid isPermaLink="true">/project/developer-portal</guid>
+        <link>http://localhost:4000/project/developer-portal</link>
+        <guid isPermaLink="true">http://localhost:4000/project/developer-portal</guid>
         
         
         <category>project</category>
@@ -150,8 +150,8 @@
 
 </description>
         <pubDate>Wed, 23 Dec 2015 11:54:46 -0500</pubDate>
-        <link>/blog/meetup/ita-hh</link>
-        <guid isPermaLink="true">/blog/meetup/ita-hh</guid>
+        <link>http://localhost:4000/blog/meetup/ita-hh</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/meetup/ita-hh</guid>
         
         
         <category>blog</category>
